@@ -21,6 +21,7 @@ public class Uyg6 extends AppCompatActivity {
         kisakenarAlan = findViewById(R.id.kisakenar);
         dikdortgenAlan = findViewById(R.id.dikdortgenAlan);
         kareAlan = findViewById(R.id.kareAlan);
+        Alan = findViewById(R.id.Alan);
 
 
         kareAlan.setOnClickListener(new View.OnClickListener() {
@@ -43,7 +44,8 @@ public class Uyg6 extends AppCompatActivity {
                 kisakenar = Integer.parseInt(kisakenarAlan.getText().toString());
                 uzunkenar = Integer.parseInt(uzunkenarAlan.getText().toString());
                 Dortgen dikdortgen = new Dortgen(kisakenar,uzunkenar);
-                Alan.setText(dikdortgen.toString());
+                alan = dikdortgen.alanBul();
+                Alan.setText(alan.toString());
             }
         });
     }
