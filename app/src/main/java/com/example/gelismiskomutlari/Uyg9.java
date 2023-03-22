@@ -17,8 +17,11 @@ public class Uyg9 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        btnkare = findViewById(R.id.btnkare);
         setContentView(R.layout.uyg9);
+
+
+
+        btnkare = findViewById(R.id.btnkare);
         ucgen = findViewById(R.id.ucgen);
         txtUzunluk = findViewById(R.id.uzunluk);
         textViewCevre = findViewById(R.id.cevre);

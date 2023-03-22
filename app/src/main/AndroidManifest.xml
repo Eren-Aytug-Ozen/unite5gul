@@ -32,6 +32,7 @@
         <activity android:name=".Uyg7"></activity>
         <activity android:name=".Uyg8"></activity>
         <activity android:name=".Uyg9"></activity>
+        <activity android:name=".Uyg10"></activity>
 
     </application>
 
