@@ -60,7 +60,7 @@
     <Button
         android:id="@+id/uyg6Goster"
         android:layout_width="303dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:onClick="uyg6Goster"
         android:text="@string/uyg6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,5 +106,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/uyg9Goster" />
+
+    <Button
+        android:id="@+id/uyg11Goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="uyg11Goster"
+        android:text="@string/uyg11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg10Goster" />
+
+    <Button
+        android:id="@+id/uyg12Goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="uyg12Goster"
+        android:text="@string/uyg12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uyg11Goster" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
